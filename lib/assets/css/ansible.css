@@ -1,3 +1,10 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #C9902A;
+  overflow: hidden;
+}
+
 .logo.org {
   background-image: url('/assets/logo/ansible.svg')
 }

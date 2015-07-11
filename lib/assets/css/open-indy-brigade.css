@@ -1,3 +1,10 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background: #03105B;
+  overflow: hidden;
+}
+
 .logo.org {
   background-image: url('/assets/logo/open-indy-brigade.svg')
 }
