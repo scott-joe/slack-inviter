@@ -43,20 +43,8 @@ button:not(.disabled):active {
 	background-color: #940303;
 }
 
-footer {
-	width: 100%;
-	margin: 200px auto;
-	text-align: center;
-	font-size: 11px;
-	color: rgba(255, 255, 255, 0.5);
-}
+footer {}
 
-footer a {
-	color: rgba(255, 255, 255, 0.5);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-}
+footer a {}
 
-footer a:hover {
-	color: rgba(255, 255, 255, 0.8);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.8);
-}
+footer a:hover {}
