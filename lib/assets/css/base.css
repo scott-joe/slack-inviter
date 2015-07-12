@@ -1,9 +1,7 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #FAFAFA;
   overflow: hidden;
-  color: white;
 }
 
 .preload * {
@@ -29,19 +27,16 @@ html, body {
 }
 
 .logos {
-  position: relative;
+  display:block;
   margin-bottom: 40px;
 }
 
-.logo {
+.logo.org {
+  display: block;
   width: 48px;
   height: 48px;
-  display: inline-block;
+  margin: 10px auto;
   background-size: cover;
-}
-
-.logo.slack {
-  /*background-image: url('/assets/slack.svg')*/
 }
 
 .greeting {
