@@ -29,7 +29,7 @@ button:active {
 
 button.error {
 	background-color: rgb(161, 58, 58);
-	border-bottom: 1px solid rgb(161, 58, 58);
+	border-bottom: 4px solid rgb(94, 49, 49);
 }
 
 button.success:disabled {
