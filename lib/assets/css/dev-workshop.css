@@ -1,10 +1,57 @@
 html, body {
-  margin: 0;
-  padding: 0;
-  background: #303030;
-  overflow: hidden;
+	background: #303030;
+	color: white;
+}
+
+.splash {
+	font-family: "Helvetica Neue", Helvetica, Arial;
 }
 
 .logo.org {
-  background-image: url('/assets/dev-workshop.svg')
+	background-image: url('/assets/dev-workshop.svg');
+}
+
+button {
+	background-color: rgb(166, 0, 0);
+}
+
+button:hover {
+	background-color: rgb(154, 1, 1);
+}
+
+button:active {
+	border-bottom: 2px solid rgb(122, 0, 0);
+}
+
+.active {
+	background-color: rgb(166, 0, 0);
+}
+
+button.error {
+	background-color: rgb(161, 58, 58);
+}
+
+button.success:disabled {
+	background-color: #68C200;
+}
+
+button:not(.disabled):active {
+	background-color: #940303;
+}
+
+footer {
+	width: 100%;
+	margin: 200px auto;
+	text-align: center;
+	font-size: 11px;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+footer a {
+	color: rgba(255, 255, 255, 0.7);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+footer a:hover {
+	color: rgba(255, 255, 255, 1);
 }

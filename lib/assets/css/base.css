@@ -1,190 +1,175 @@
 html, body {
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 }
 
 .preload * {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
+	-webkit-transition: none !important;
+	-moz-transition: none !important;
+	-ms-transition: none !important;
+	-o-transition: none !important;
 }
 
 .splash {
-  width: 80%;
-  padding: 10px;
-  margin: 100px auto;
-  margin-top: 100px;
-  text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial;
-  font-weight: normal;
-  box-sizing: border-box;
+	width: 80%;
+	padding: 10px;
+	margin: 100px auto;
+	margin-top: 100px;
+	text-align: center;
+	box-sizing: border-box;
+	font-weight: normal;
 }
 
 .head {
-  margin-bottom: 40px;
+	margin-bottom: 40px;
 }
 
 .logos {
-  display:block;
-  margin-bottom: 40px;
+	display:block;
+	margin-bottom: 40px;
 }
 
 .logo.org {
-  display: block;
-  width: 48px;
-  height: 48px;
-  margin: 10px auto;
-  background-size: cover;
+	display: block;
+	width: 48px;
+	height: 48px;
+	margin: 10px auto;
+	background-size: cover;
 }
 
 .greeting {
-  text-align: center;
-  font-size: 1.6em;
+	text-align: center;
+	font-size: 1.6em;
 }
 
 .group-name {
-  font-weight: bold;
-  font-size: 1.8em;
+	font-weight: bold;
+	font-size: 1.8em;
 }
 
 .channelWrapper {
-  display: block;
+	display: block;
 }
 
 .defaultChannel {
-  font-weight: bold;
+	font-weight: bold;
 }
 
 form {
-  margin-top: 20px;
-  margin-bottom: 0;
+	margin-top: 20px;
+	margin-bottom: 0;
 }
 
-  button, input {
-    display: block;
-    box-sizing: border-box;
-    height: 42px;
-    width: 70%;
-    margin: 10px auto;
-    text-align: center;
-    font-size: 18px;
-    line-height: 32px;
-    vertical-align: middle;
-    transition: all 0.2s ease;
-  }
+	button, input {
+		display: block;
+		box-sizing: border-box;
+		height: 42px;
+		width: 70%;
+		margin: 10px auto;
+		text-align: center;
+		font-size: 18px;
+		line-height: 32px;
+		vertical-align: middle;
+		transition: all 0.2s ease;
+	}
 
-  input {
-    background-color: rgba(255, 255, 255, 0.15);
-    color: rgba(255, 250, 250, 0.7);
-    border-radius: 3px;
-    border: 1px solid rgba(255, 255, 255, 0.50);
-    outline: none;
-    font-weight: normal;
-  }
+	input {
+		background-color: rgba(255, 255, 255, 0.15);
+		color: rgba(255, 250, 250, 0.7);
+		border-radius: 3px;
+		border: 1px solid rgba(255, 255, 255, 0.50);
+		outline: none;
+		font-weight: normal;
+	}
 
-  input:focus {
-    background-color: rgba(255, 255, 255, 0.35);
-    border: 1px solid rgba(255, 255, 255, 1);
-    outline: none;
-    color: white;
-  }
+	input:focus {
+		background-color: rgba(255, 255, 255, 0.35);
+		border: 1px solid rgba(255, 255, 255, 1);
+		outline: none;
+		color: white;
+	}
 
-    ::-webkit-input-placeholder {
-      color: rgba(255, 250, 250, 0.5);
-    }
+		::-webkit-input-placeholder {
+			color: rgba(255, 250, 250, 0.5);
+		}
 
-    :-moz-placeholder {
-      color: rgba(255, 250, 250, 0.5);
-    }
+		:-moz-placeholder {
+			color: rgba(255, 250, 250, 0.5);
+		}
 
-    ::-moz-placeholder {
-      color: rgba(255, 250, 250, 0.5);
-    }
+		::-moz-placeholder {
+			color: rgba(255, 250, 250, 0.5);
+		}
 
-    :-ms-input-placeholder {
-      color: rgba(255, 250, 250, 0.5);
-    }
+		:-ms-input-placeholder {
+			color: rgba(255, 250, 250, 0.5);
+		}
 
-  button {
-    height: 28px;
-    line-height: 28px;
-  }
+	button {
+		height: 28px;
+		line-height: 28px;
+	}
 
-  button {
-    position: relative;
-    height: 48px;
-    color: #fff;
-    font-weight: bold;
-    border-width: 0;
-    background-color: rgb(166, 0, 0);
-    text-transform: uppercase;
-    cursor: pointer;
-    appearence: none;
-    -webkit-appearence: none;
-    padding: 0;
-    outline: 0;
-    font-size: 1.6em;
-    border-radius: 6px;
-    border-bottom: 4px solid rgb(122, 0, 0);
-    width: 50%;
-    margin-top: 30px;
-  }
+	button {
+		position: relative;
+		height: 48px;
+		color: #fff;
+		font-weight: bold;
+		border-width: 0;
+		background-color: rgb(166, 0, 0);
+		text-transform: uppercase;
+		cursor: pointer;
+		appearence: none;
+		-webkit-appearence: none;
+		padding: 0;
+		outline: 0;
+		font-size: 1.6em;
+		border-radius: 6px;
+		border-bottom: 4px solid rgb(122, 0, 0);
+		width: 50%;
+		margin-top: 30px;
+	}
 
-  button:hover {
-    background-color: rgb(154, 1, 1);
-  }
+	button:hover {
+		background-color: rgb(154, 1, 1);
+	}
 
-  button:active {
-    border-bottom: 2px solid rgb(122, 0, 0);
-    top: 2px;
-  }
+	button:active {
+		top: 2px;
+	}
 
-  .active {
-    background-color: rgb(166, 0, 0);
-  }
+	.active {}
 
-  button.loading {
-    pointer-events: none
-  }
+	button.loading {
+		pointer-events: none;
+	}
 
-  button:disabled {
-    /*color: #9B9B9B;*/
-    /*background-color: #D6D6D6;*/
-    cursor: default;
-    pointer-events: none;
-    /*border-bottom: 4px solid #D6D6D6;*/
-  }
+	button:disabled {
+		/*color: #9B9B9B;*/
+		/*background-color: #D6D6D6;*/
+		cursor: default;
+		pointer-events: none;
+		/*border-bottom: 4px solid #D6D6D6;*/
+	}
 
-  button.error {
-    background-color: rgb(161, 58, 58);
-  }
+	button.error {}
 
-  button.success:disabled {
-    color: #fff;
-    background-color: #68C200;
-  }
+	button.success:disabled {
+		color: #fff;
+	}
 
-  button:not(.disabled):active {
-    background-color: #940303;
-  }
+	button:not(.disabled):active {}
 
 footer {
-  color: #D6D6D6;
-  font-size: 11px;
-  margin: 200px auto 0;
-  width: 300px;
-  text-align: center;
+	width: 100%;
+	margin: 200px auto;
+	text-align: center;
+	font-size: 11px;
 }
 
 footer a {
-  color: #9B9B9B;
-  text-decoration: none;
-  border-bottom: 1px solid #9B9B9B;
+	text-decoration: none;
 }
 
-footer a:hover {
-  color: #fff;
-  background-color: #9B9B9B;
-}
+footer a:hover {}

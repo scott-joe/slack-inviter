@@ -1,68 +1,57 @@
 html, body {
-  background: #FAFAFA;
-  color: white;
+	background: #FAFAFA;
+	color: white;
+}
+
+.splash {
+	font-family: "Helvetica Neue", Helvetica, Arial;
 }
 
 .logo.org {
-  background-image: url('/assets/ansible.svg')
+	background-image: url('/assets/ansible.svg')
 }
 
-  button {
-    background-color: rgb(166, 0, 0);
-  }
+button {
+	background-color: rgb(166, 0, 0);
+}
 
-  button:hover {
-    background-color: rgb(154, 1, 1);
-  }
+button:hover {
+	background-color: rgb(154, 1, 1);
+}
 
-  button:active {
-    border-bottom: 2px solid rgb(122, 0, 0);
-    top: 2px;
-  }
+button:active {
+	border-bottom: 2px solid rgb(122, 0, 0);
+}
 
-  .active {
-    background-color: rgb(166, 0, 0);
-  }
+.active {
+	background-color: rgb(166, 0, 0);
+}
 
-  button.loading {
-    pointer-events: none
-  }
+button.error {
+	background-color: rgb(161, 58, 58);
+}
 
-  button:disabled {
-    /*color: #9B9B9B;*/
-    /*background-color: #D6D6D6;*/
-    cursor: default;
-    pointer-events: none;
-    /*border-bottom: 4px solid #D6D6D6;*/
-  }
+button.success:disabled {
+	background-color: #68C200;
+}
 
-  button.error {
-    background-color: rgb(161, 58, 58);
-  }
-
-  button.success:disabled {
-    color: #fff;
-    background-color: #68C200;
-  }
-
-  button:not(.disabled):active {
-    background-color: #940303;
-  }
+button:not(.disabled):active {
+	background-color: #940303;
+}
 
 footer {
-  color: rgba(255, 255, 255, 0.5);
-  font-size: 11px;
-  margin: 200px auto;
-  width: 100%;
-  text-align: center;
+	width: 100%;
+	margin: 200px auto;
+	text-align: center;
+	font-size: 11px;
+	color: rgba(255, 255, 255, 0.5);
 }
 
 footer a {
-  color: rgba(255, 255, 255, 0.7);
-  text-decoration: none;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+	color: rgba(255, 255, 255, 0.7);
+	border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 }
 
 footer a:hover {
-  color: rgba(255, 255, 255, 1);
+	color: rgba(255, 255, 255, 1);
 }
