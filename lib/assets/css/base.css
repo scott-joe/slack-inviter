@@ -147,7 +147,7 @@ form {
   }
 
   .active {
-    color: rgb(122, 0, 0);
+    background-color: rgb(166, 0, 0);
   }
 
   button.loading {
@@ -163,7 +163,7 @@ form {
   }
 
   button.error {
-    background-color: rgb(122, 0, 0);
+    background-color: rgb(161, 58, 58);
   }
 
   button.success:disabled {
