@@ -6,6 +6,13 @@ html, body {
   color: white;
 }
 
+.preload * {
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -ms-transition: none !important;
+  -o-transition: none !important;
+}
+
 .splash {
   width: 80%;
   padding: 10px;
