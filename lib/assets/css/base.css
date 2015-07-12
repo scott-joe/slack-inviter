@@ -113,8 +113,6 @@ form {
   }
 
   button:active {
-    /* change border bottom width*/
-    /* change top alignment down by same amount */
     border-bottom: 1px solid rgb(122, 0, 0);
     top: 3px;
   }
@@ -128,6 +126,7 @@ form {
     background-color: #D6D6D6;
     cursor: default;
     pointer-events: none;
+    border-bottom: 4px solid #D6D6D6;
   }
 
   button.error {
