@@ -7,8 +7,8 @@ html, body {
 	font-family: "Helvetica Neue", Helvetica, Arial;
 }
 
-.logo.org {
-  background-image: url('/assets/open-indy-brigade.svg');
+.logo.group {
+	background-image: url('/assets/open-indy-brigade.svg');
 }
 
 button {

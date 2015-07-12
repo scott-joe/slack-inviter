@@ -35,6 +35,16 @@ html, body {
 	width: 48px;
 	height: 48px;
 	margin: 10px auto;
+	background-image: url('/assets/ansible.svg');
+	background-size: cover;
+}
+
+.logo.group {
+	display: block;
+	width: 300px;
+	/*height: 48px;*/
+	margin: 10px auto;
+	background-image: url('/assets/ansible.svg');
 	background-size: cover;
 }
 

@@ -7,8 +7,8 @@ html, body {
 	font-family: "Helvetica Neue", Helvetica, Arial;
 }
 
-.logo.org {
-	background-image: url('/assets/ansible.svg')
+.logo.group {
+	background-image: url('/assets/ansible.svg');
 }
 
 button {
