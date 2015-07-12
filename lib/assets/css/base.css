@@ -44,6 +44,7 @@ html, body {
 
 .group-name {
   font-weight: bold;
+  font-size: 1.8em;
 }
 
 .channelWrapper {
@@ -52,7 +53,6 @@ html, body {
 
 .defaultChannel {
   font-weight: bold;
-  display: block;
 }
 
 .active {
@@ -82,7 +82,10 @@ form {
     color: rgba(255, 250, 250, 0.7);
     border-radius: 3px;
     border: 1px solid rgba(255, 255, 255, 0.50);
+  }
 
+  input[placeholder] {
+    color: rgba(255, 250, 250, 0.5);
   }
 
   input:focus {
