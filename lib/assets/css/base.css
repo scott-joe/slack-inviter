@@ -42,10 +42,17 @@ html, body {
   font-size: 1.6em;
 }
 
-.group-name, .defaultChannel {
+.group-name {
+  font-weight: bold;
+}
+
+.channelWrapper {
+  display: block;
+}
+
+.defaultChannel {
   font-weight: bold;
   display: block;
-  font-size: 1.5em;
 }
 
 .active {
