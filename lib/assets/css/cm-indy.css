@@ -1,6 +1,6 @@
 html, body {
-	background: rgb(111, 111, 111);
-	color: #93c840;
+	background: #fff;
+	color: #000;
 }
 
 .splash {
@@ -14,11 +14,12 @@ html, body {
 }
 
 button {
-	background-color: rgb(166, 0, 0);
+	background-color: #93c840;
+	border-bottom: 4px solid #6D952D;
 }
 
 button:hover {
-	background-color: rgb(154, 1, 1);
+	background-color: #93c840;
 }
 
 button:active {
@@ -30,7 +31,7 @@ button:active {
 }
 
 button.error {
-	background-color: rgb(161, 58, 58);
+	background-color: #A2C46C;
 }
 
 button.success:disabled {
