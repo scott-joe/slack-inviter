@@ -8,8 +8,8 @@ html, body {
 }
 
 .logo.group {
-	width: 390px;
-	height: 140px;
+	width: 440px;
+	height: 80px;
 	background-image: url('/assets/cm-indy.png');
 }
 
@@ -44,15 +44,14 @@ button:not(.disabled):active {
 
 input {
 	background-color: rgba(0, 0, 0, 0.05);
-	color: rgba(0, 0, 0, 0.5);
 	border: 1px solid rgba(0, 0, 0, 0.25);
+	color: rgba(0, 0, 0, 0.5);
 }
 
 input:focus {
-	background-color: rgba(0, 0, 0, 0.35);
+	background-color: rgba(0, 0, 0, 0.15);
 	border: 1px solid rgba(0, 0, 0, 0.5);
-	outline: none;
-	color: white;
+	color: rgba(0, 0, 0, 0.5);
 }
 
 	::-webkit-input-placeholder {
