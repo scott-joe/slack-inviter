@@ -1,6 +1,7 @@
 html, body {
 	background: #fff;
 	color: #000;
+	border-top: 5px solid #000;
 }
 
 .splash {
