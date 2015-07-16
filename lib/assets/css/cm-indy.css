@@ -5,12 +5,21 @@ html, body {
 
 .splash {
 	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
 }
 
 .logo.group {
 	width: 440px;
 	height: 80px;
 	background-image: url('/assets/cm-indy.png');
+}
+
+.greeting {
+	font-weight: 800;
+}
+
+.group-name {
+	font-weight: 800;
 }
 
 button {
