@@ -1,10 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
 html, body {
 	background: #fff;
 	color: #000;
 }
 
 .splash {
-	font-family: "Helvetica Neue", Helvetica, Arial;
+	font-family: 'Oswald', sans-serif;
 }
 
 .logo.group {
