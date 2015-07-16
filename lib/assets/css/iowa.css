@@ -35,7 +35,7 @@ button.error {
 }
 
 button.success:disabled {
-	background-color: #68C200;
+	background-color: rgb(166, 0, 0);
 }
 
 button:not(.disabled):active {
