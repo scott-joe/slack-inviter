@@ -1,5 +1,5 @@
 html, body {
-	background: #303030;
+	background: #252525;
 	color: white;
 }
 
@@ -8,8 +8,6 @@ html, body {
 }
 
 .logo.group {
-	/*width: 390px;
-	height: 140px;*/
 	background-image: url('/assets/dev-workshop.svg');
 }
 
