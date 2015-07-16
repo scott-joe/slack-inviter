@@ -35,11 +35,11 @@ button.error {
 }
 
 button.success:disabled {
-	background-color: #89BA3B;
+	background-color: #68C200;
 }
 
 button:not(.disabled):active {
-	background-color: #940303;
+	background-color: #89BA3B;
 }
 
 input {
