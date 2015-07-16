@@ -41,6 +41,9 @@ html, body {
 .logo.group {
 	display: block;
 	background-size: cover;
+	width: 280px;
+	height: 280px;
+	margin: 40px auto -10px auto;
 }
 
 .greeting {

@@ -8,9 +8,8 @@ html, body {
 }
 
 .logo.group {
-	width: 280px;
-	height: 280px;
-	margin: 40px auto -10px auto;
+	/*width: 390px;
+	height: 140px;*/
 	background-image: url('/assets/ansible.svg');
 }
 
