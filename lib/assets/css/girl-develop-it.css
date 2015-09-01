@@ -1,4 +1,4 @@
-/*@import url('http://fonts.googleapis.com/css?family=Oswald:400,300,700');*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
 html, body {
 	background: #fff;
@@ -7,8 +7,8 @@ html, body {
 }
 
 .splash {
-	/*font-family: 'Oswald', sans-serif;*/
-	/*font-weight: 300;*/
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
 }
 
 .logo.group {
@@ -26,7 +26,7 @@ html, body {
 }
 
 button {
-	background-color: #93c840;
+	background-color: #F05B62;
 	border-bottom: 4px solid #6D952D;
 }
 
