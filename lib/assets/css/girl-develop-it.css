@@ -27,7 +27,7 @@ html, body {
 
 button {
 	background-color: #F05B62;
-	border-bottom: 4px solid #6D952D;
+	border-bottom: 4px solid #BB111A;
 }
 
 button:hover {
@@ -35,11 +35,11 @@ button:hover {
 }
 
 button:active {
-	border-bottom: 2px solid #6D952D;
+	border-bottom: 2px solid #BB111A;
 }
 
 .active {
-	background-color: #8ABC3B;
+	background-color: #DD4B52;
 }
 
 button.error {
