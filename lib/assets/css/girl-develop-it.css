@@ -2,7 +2,7 @@
 
 html, body {
 	background: #fff;
-	color: #000;
+	color: #2A4758;
 	border-top: 5px solid #000;
 }
 
@@ -30,6 +30,8 @@ html, body {
 	width: 600px;
     height: 150px;
 	background-image: url('/assets/girl-develop-it.svg');
+	position: relative;
+    top: -20px;
 }
 
 .greeting {
@@ -58,15 +60,15 @@ button:active {
 }
 
 button.error {
-	background-color: #A2C46C;
+	background-color: #D04F55;
 }
 
 button.success:disabled {
-	background-color: #F05B62;
+	background-color: #D04F55;
 }
 
 button:not(.disabled):active {
-	background-color: #F05B62;
+	background-color: #D04F55;
 }
 
 input {
