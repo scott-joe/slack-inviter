@@ -1,48 +1,97 @@
+/*@import url('http://fonts.googleapis.com/css?family=Oswald:400,300,700');*/
+
 html, body {
-	background: #18204A;
-	color: white;
+	background: #fff;
+	color: #000;
+	border-top: 5px solid #000;
 }
 
 .splash {
-	font-family: "Helvetica Neue", Helvetica, Arial;
+	/*font-family: 'Oswald', sans-serif;*/
+	/*font-weight: 300;*/
 }
 
 .logo.group {
-	width: 430px;
-	height: 140px;
+	width: 300px;
+	height: 80px;
 	background-image: url('/assets/girl-develop-it.svg');
 }
 
+.greeting {
+	font-weight: 700;
+}
+
+.group-name {
+	font-weight: 700;
+}
+
 button {
-	background-color: rgb(166, 0, 0);
+	background-color: #93c840;
+	border-bottom: 4px solid #6D952D;
 }
 
 button:hover {
-	background-color: rgb(154, 1, 1);
+	background-color: #93c840;
 }
 
 button:active {
-	border-bottom: 2px solid rgb(122, 0, 0);
+	border-bottom: 2px solid #6D952D;
 }
 
 .active {
-	background-color: rgb(166, 0, 0);
+	background-color: #8ABC3B;
 }
 
 button.error {
-	background-color: rgb(161, 58, 58);
+	background-color: #A2C46C;
 }
 
 button.success:disabled {
-	background-color: rgb(166, 0, 0);
+	background-color: #68C200;
 }
 
 button:not(.disabled):active {
-	background-color: #940303;
+	background-color: #89BA3B;
 }
 
-footer {}
+input {
+	background-color: rgba(0, 0, 0, 0.05);
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	color: rgba(0, 0, 0, 0.5);
+}
 
-footer a {}
+input:focus {
+	background-color: rgba(0, 0, 0, 0.08);
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	color: rgba(0, 0, 0, 0.5);
+}
 
-footer a:hover {}
+	::-webkit-input-placeholder {
+		color: rgba(0, 0, 0, 0.25);
+	}
+
+	:-moz-placeholder {
+		color: rgba(0, 0, 0, 0.25);
+	}
+
+	::-moz-placeholder {
+		color: rgba(0, 0, 0, 0.25);
+	}
+
+	:-ms-input-placeholder {
+		color: rgba(0, 0, 0, 0.25);
+	}
+
+footer {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+footer a {
+	color: rgba(0, 0, 0, 0.5);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+footer a:hover {
+	color: rgba(0, 0, 0, 0.7);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
