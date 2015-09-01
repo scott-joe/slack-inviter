@@ -3,6 +3,7 @@
 html, body {
 	background: #fff;
 	color: #2A4758;
+	font-weight: 300;
 	border-top: 5px solid #000;
 }
 
@@ -35,10 +36,10 @@ html, body {
 }
 
 .greeting {
-	font-weight: 700;
+	font-weight: 300;
 }
 
-.group-name {
+.group-name, .defaultChannel {
 	font-weight: 700;
 }
 
