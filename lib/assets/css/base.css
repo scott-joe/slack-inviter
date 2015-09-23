@@ -35,7 +35,7 @@ html, body {
 	height: 50px;
 	margin: 5px auto;
 	background-size: cover;
-	background-image: url('/assets/ansible.svg');
+	background-image: url('/assets/ansible.png');
 }
 
 .logo.group {
