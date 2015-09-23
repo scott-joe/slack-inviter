@@ -8,7 +8,7 @@ html, body {
 }
 
 .logo.group {
-	background-image: url('/assets/ansible.svg');
+	background-image: url('/assets/ansible.png');
 }
 
 button {
