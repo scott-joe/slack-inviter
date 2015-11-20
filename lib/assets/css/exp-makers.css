@@ -34,34 +34,38 @@ html, body {
 	font-weight: 700;
 }
 
+.channelWrapper {
+	font-weight: 400;
+}
+
 button {
 	background-color: #F26E6F;
 	border-bottom: 4px solid #D95454;
 }
 
-button:hover {
-	background-color: #F26E6F;
-}
+	button:hover {
+		background-color: #F26E6F;
+	}
 
-button:active {
-	border-bottom: 2px solid #CD2D2D;
-}
+	button:active {
+		border-bottom: 2px solid #CD2D2D;
+	}
 
-.active {
-	background-color: #CD2D2D;
-}
+	.active {
+		background-color: #CD2D2D;
+	}
 
-button.error {
-	background-color: #CD2D2D;
-}
+	button.error {
+		background-color: #CD2D2D;
+	}
 
-button.success:disabled {
-	background-color: #F26E6F;
-}
+	button.success:disabled {
+		background-color: #F26E6F;
+	}
 
-button:not(.disabled):active {
-	background-color: #D95454;
-}
+	button:not(.disabled):active {
+		background-color: #D95454;
+	}
 
 input {
 	background-color: rgba(0, 0, 0, 0.05);
@@ -69,27 +73,27 @@ input {
 	color: rgba(0, 0, 0, 0.5);
 }
 
-input:focus {
-	background-color: rgba(0, 0, 0, 0.08);
-	border: 1px solid rgba(0, 0, 0, 0.5);
-	color: rgba(0, 0, 0, 0.5);
-}
-
-	::-webkit-input-placeholder {
-		color: rgba(0, 0, 0, 0.25);
+	input:focus {
+		background-color: rgba(0, 0, 0, 0.08);
+		border: 1px solid rgba(0, 0, 0, 0.5);
+		color: rgba(0, 0, 0, 0.5);
 	}
 
-	:-moz-placeholder {
-		color: rgba(0, 0, 0, 0.25);
-	}
+		::-webkit-input-placeholder {
+			color: rgba(0, 0, 0, 0.25);
+		}
 
-	::-moz-placeholder {
-		color: rgba(0, 0, 0, 0.25);
-	}
+		:-moz-placeholder {
+			color: rgba(0, 0, 0, 0.25);
+		}
 
-	:-ms-input-placeholder {
-		color: rgba(0, 0, 0, 0.25);
-	}
+		::-moz-placeholder {
+			color: rgba(0, 0, 0, 0.25);
+		}
+
+		:-ms-input-placeholder {
+			color: rgba(0, 0, 0, 0.25);
+		}
 
 footer {
 	color: rgba(0, 0, 0, 0.5);
