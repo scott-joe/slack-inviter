@@ -57,6 +57,7 @@ button {
 
 	button.error {
 		background-color: #CD2D2D;
+		border-bottom: 2px solid #9A0101;
 	}
 
 	button.success:disabled {
@@ -65,6 +66,7 @@ button {
 
 	button:not(.disabled):active {
 		background-color: #D95454;
+		border-bottom: 2px solid #9A0101;
 	}
 
 input {
