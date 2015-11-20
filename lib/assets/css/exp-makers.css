@@ -1,5 +1,6 @@
 /*
 	Logo: #fe533f
+	Logo: #F26E6F
 	Background: #f3f3f3
 	Header Text: #fe533f
 	Regular Text: #666666
@@ -11,7 +12,7 @@
 html, body {
 	background: #f3f3f3;
 	color: #666666;
-	border-top: 5px solid #fe533f;
+	border-top: 5px solid #F26E6F;
 }
 
 .splash {
@@ -34,12 +35,12 @@ html, body {
 }
 
 button {
-	background-color: #fe533f;
+	background-color: #F26E6F;
 	border-bottom: 4px solid #6D952D;
 }
 
 button:hover {
-	background-color: #fe533f;
+	background-color: #F26E6F;
 }
 
 button:active {
