@@ -9,9 +9,9 @@
 @import url('http://fonts.googleapis.com/css?family=Oswald:400,300,700');
 
 html, body {
-	background: #fff;
-	color: #000;
-	border-top: 5px solid #000;
+	background: #f3f3f3;
+	color: #666666;
+	border-top: 5px solid #fe533f;
 }
 
 .splash {
@@ -34,12 +34,12 @@ html, body {
 }
 
 button {
-	background-color: #93c840;
+	background-color: #fe533f;
 	border-bottom: 4px solid #6D952D;
 }
 
 button:hover {
-	background-color: #93c840;
+	background-color: #fe533f;
 }
 
 button:active {
