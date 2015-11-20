@@ -1,6 +1,7 @@
 /*
-	Logo: #fe533f
-	Logo: #F26E6F
+	Logo-spec: #fe533f
+	Logo-actual: #F26E6F
+	Logo-shift: #F55B5B
 	Background: #f3f3f3
 	Header Text: #fe533f
 	Regular Text: #666666
@@ -12,7 +13,7 @@
 html, body {
 	background: #f3f3f3;
 	color: #666666;
-	border-top: 5px solid #F26E6F;
+	border-top: 5px solid #F55B5B;
 }
 
 .splash {
@@ -39,12 +40,12 @@ html, body {
 }
 
 button {
-	background-color: #F26E6F;
+	background-color: #F55B5B;
 	border-bottom: 4px solid #D95454;
 }
 
 	button:hover {
-		background-color: #F26E6F;
+		background-color: #F55B5B;
 	}
 
 	button:active {
@@ -61,7 +62,7 @@ button {
 	}
 
 	button.success:disabled {
-		background-color: #F26E6F;
+		background-color: #F55B5B;
 	}
 
 	button:not(.disabled):active {
