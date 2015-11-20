@@ -36,7 +36,7 @@ html, body {
 
 button {
 	background-color: #F26E6F;
-	border-bottom: 4px solid #6D952D;
+	border-bottom: 4px solid #D95454;
 }
 
 button:hover {
@@ -44,23 +44,23 @@ button:hover {
 }
 
 button:active {
-	border-bottom: 2px solid #6D952D;
+	border-bottom: 2px solid #CD2D2D;
 }
 
 .active {
-	background-color: #8ABC3B;
+	background-color: #CD2D2D;
 }
 
 button.error {
-	background-color: #A2C46C;
+	background-color: #CD2D2D;
 }
 
 button.success:disabled {
-	background-color: #68C200;
+	background-color: #F26E6F;
 }
 
 button:not(.disabled):active {
-	background-color: #89BA3B;
+	background-color: #D95454;
 }
 
 input {
