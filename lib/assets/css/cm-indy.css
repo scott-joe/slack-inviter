@@ -1,3 +1,13 @@
+/*
+	Logo-spec: #fe533f
+	Logo-actual: #F26E6F
+	Logo-shift: #F55B5B
+	Background: #f3f3f3
+	Header Text: #fe533f
+	Regular Text: #666666
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 @import url('http://fonts.googleapis.com/css?family=Oswald:400,300,700');
 
 html, body {
@@ -12,8 +22,8 @@ html, body {
 }
 
 .logo.group {
-	width: 440px;
-	height: 80px;
+	width: 630px;
+	height: 115px;
 	background-image: url('/assets/cm-indy.png');
 }
 
