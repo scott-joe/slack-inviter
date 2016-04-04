@@ -39,6 +39,9 @@ html, body {
 	margin: 5px auto;
 	background-size: cover;
 	background-image: url('/assets/ansible.png');
+}
+
+.org-name {
 	font-family: 'Montserrat', sans-serif;
 }
 
