@@ -1,0 +1,113 @@
+/*
+	Logo-spec: #fe533f
+	Logo-actual: #F26E6F
+	Logo-shift: #F55B5B
+	Background: #f3f3f3
+	Header Text: #fe533f
+	Regular Text: #666666
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('http://fonts.googleapis.com/css?family=Oswald:400,300,700');
+
+html, body {
+	background: #f3f3f3;
+	color: #666666;
+	border-top: 5px solid #F55B5B;
+}
+
+.splash {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+.logo.group {
+	width: 690px;
+	height: 120px;
+	background-image: url('/assets/exp-makers.svg');
+}
+
+.greeting {
+	font-weight: 700;
+}
+
+.group-name {
+	font-weight: 700;
+}
+
+.channelWrapper {
+	font-weight: 400;
+}
+
+button {
+	background-color: #F55B5B;
+	border-bottom: 4px solid #D95454;
+}
+
+	button:hover {
+		background-color: #F55B5B;
+	}
+
+	button:active {
+		border-bottom: 2px solid #CD2D2D;
+	}
+
+	.active {
+		background-color: #CD2D2D;
+	}
+
+	button.error {
+		background-color: #CD2D2D;
+		border-bottom: 2px solid #9A0101;
+	}
+
+	button.success:disabled {
+		background-color: #F55B5B;
+	}
+
+	button:not(.disabled):active {
+		background-color: #D95454;
+		border-bottom: 2px solid #9A0101;
+	}
+
+input {
+	background-color: rgba(0, 0, 0, 0.05);
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	color: rgba(0, 0, 0, 0.5);
+}
+
+	input:focus {
+		background-color: rgba(0, 0, 0, 0.08);
+		border: 1px solid rgba(0, 0, 0, 0.5);
+		color: rgba(0, 0, 0, 0.5);
+	}
+
+		::-webkit-input-placeholder {
+			color: rgba(0, 0, 0, 0.25);
+		}
+
+		:-moz-placeholder {
+			color: rgba(0, 0, 0, 0.25);
+		}
+
+		::-moz-placeholder {
+			color: rgba(0, 0, 0, 0.25);
+		}
+
+		:-ms-input-placeholder {
+			color: rgba(0, 0, 0, 0.25);
+		}
+
+footer {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+footer a {
+	color: rgba(0, 0, 0, 0.5);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+footer a:hover {
+	color: rgba(0, 0, 0, 0.7);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
