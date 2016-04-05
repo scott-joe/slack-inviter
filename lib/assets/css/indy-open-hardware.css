@@ -38,7 +38,7 @@ html, body {
 
 button {
 	background-color: #0068B3;
-	border-bottom: 4px solid #D95454;
+	border-bottom: 4px solid #004A80;
 }
 
 	button:hover {
@@ -46,16 +46,16 @@ button {
 	}
 
 	button:active {
-		border-bottom: 2px solid #CD2D2D;
+		border-bottom: 2px solid #005999;
 	}
 
 	.active {
-		background-color: #CD2D2D;
+		background-color: #005999;
 	}
 
 	button.error {
-		background-color: #CD2D2D;
-		border-bottom: 2px solid #9A0101;
+		background-color: #005999;
+		border-bottom: 2px solid #001E33;
 	}
 
 	button.success:disabled {
@@ -63,8 +63,8 @@ button {
 	}
 
 	button:not(.disabled):active {
-		background-color: #D95454;
-		border-bottom: 2px solid #9A0101;
+		background-color: #004A80;
+		border-bottom: 2px solid #001E33;
 	}
 
 input {
