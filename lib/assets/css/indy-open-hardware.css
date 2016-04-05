@@ -1,10 +1,7 @@
 /*
-	Logo-spec: #fe533f
-	Logo-actual: #F26E6F
-	Logo-shift: #F55B5B
-	Background: #f3f3f3
-	Header Text: #fe533f
-	Regular Text: #666666
+	Logo-blue: #0068B3
+	Logo-orange: #F15C22
+	Background: #ffffff
 */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
@@ -13,7 +10,7 @@
 html, body {
 	background: #f3f3f3;
 	color: #666666;
-	border-top: 5px solid #F55B5B;
+	border-top: 5px solid #0068B3;
 }
 
 .splash {
@@ -24,7 +21,7 @@ html, body {
 .logo.group {
 	width: 690px;
 	height: 120px;
-	background-image: url('/assets/exp-makers.svg');
+	background-image: url('/assets/indy-open-hardware.svg');
 }
 
 .greeting {
@@ -40,12 +37,12 @@ html, body {
 }
 
 button {
-	background-color: #F55B5B;
+	background-color: #0068B3;
 	border-bottom: 4px solid #D95454;
 }
 
 	button:hover {
-		background-color: #F55B5B;
+		background-color: #0068B3;
 	}
 
 	button:active {
@@ -62,7 +59,7 @@ button {
 	}
 
 	button.success:disabled {
-		background-color: #F55B5B;
+		background-color: #0068B3;
 	}
 
 	button:not(.disabled):active {
