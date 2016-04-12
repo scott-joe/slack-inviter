@@ -18,8 +18,8 @@ html, body {
 }
 
 .logo.group {
-	width: 690px;
-	height: 237px;
+	width: 533px;
+	height: 325px;
 	background-image: url('/assets/dive-club.svg');
 }
 
@@ -37,7 +37,7 @@ html, body {
 
 button {
 	background-color: #C1272D;
-	border-bottom: 4px solid #004A80;
+	border-bottom: 4px solid #941E22;
 }
 
 	button:hover {
@@ -45,16 +45,16 @@ button {
 	}
 
 	button:active {
-		border-bottom: 2px solid #005999;
+		border-bottom: 2px solid #941E22;
 	}
 
 	.active {
-		background-color: #005999;
+		background-color: #941E22;
 	}
 
 	button.error {
-		background-color: #005999;
-		border-bottom: 2px solid #001E33;
+		background-color: #941E22;
+		border-bottom: 2px solid #3F0D0F;
 	}
 
 	button.success:disabled {
@@ -62,8 +62,8 @@ button {
 	}
 
 	button:not(.disabled):active {
-		background-color: #004A80;
-		border-bottom: 2px solid #001E33;
+		background-color: #941E22;
+		border-bottom: 2px solid #3F0D0F;
 	}
 
 input {
