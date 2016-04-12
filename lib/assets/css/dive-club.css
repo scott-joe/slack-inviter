@@ -1,0 +1,109 @@
+/*
+	Logo-red: #C1272D
+	Background: #ffffff
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('http://fonts.googleapis.com/css?family=Oswald:400,300,700');
+
+html, body {
+	background: #ffffff;
+	color: #666666;
+	border-top: 5px solid #C1272D;
+}
+
+.splash {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+}
+
+.logo.group {
+	width: 690px;
+	height: 237px;
+	background-image: url('/assets/dive-club.svg');
+}
+
+.greeting {
+	font-weight: 700;
+}
+
+.group-name {
+	font-weight: 700;
+}
+
+.channelWrapper {
+	font-weight: 400;
+}
+
+button {
+	background-color: #C1272D;
+	border-bottom: 4px solid #004A80;
+}
+
+	button:hover {
+		background-color: #C1272D;
+	}
+
+	button:active {
+		border-bottom: 2px solid #005999;
+	}
+
+	.active {
+		background-color: #005999;
+	}
+
+	button.error {
+		background-color: #005999;
+		border-bottom: 2px solid #001E33;
+	}
+
+	button.success:disabled {
+		background-color: #C1272D;
+	}
+
+	button:not(.disabled):active {
+		background-color: #004A80;
+		border-bottom: 2px solid #001E33;
+	}
+
+input {
+	background-color: rgba(0, 0, 0, 0.05);
+	border: 1px solid rgba(0, 0, 0, 0.25);
+	color: rgba(0, 0, 0, 0.5);
+}
+
+	input:focus {
+		background-color: rgba(0, 0, 0, 0.08);
+		border: 1px solid rgba(0, 0, 0, 0.5);
+		color: rgba(0, 0, 0, 0.5);
+	}
+
+		::-webkit-input-placeholder {
+			color: rgba(0, 0, 0, 0.25);
+		}
+
+		:-moz-placeholder {
+			color: rgba(0, 0, 0, 0.25);
+		}
+
+		::-moz-placeholder {
+			color: rgba(0, 0, 0, 0.25);
+		}
+
+		:-ms-input-placeholder {
+			color: rgba(0, 0, 0, 0.25);
+		}
+
+footer {
+	color: rgba(0, 0, 0, 0.5);
+}
+
+footer a {
+	color: rgba(0, 0, 0, 0.5);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+footer a:hover {
+	color: rgba(0, 0, 0, 0.7);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+}
