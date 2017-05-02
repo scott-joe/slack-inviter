@@ -1,10 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
-@import url('http://fonts.googleapis.com/css?family=Oswald:400,300,700');
-
 html, body {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	background: #273239;
+	/* #3e4a50 */
+	color: #efffff;
+	/* #bfc6c9 */
+	/* #ffcb6b */
+	/* #89ddf3 */
+	/* #73d2c8 */
+	/* #c3e88d */
 }
 
 .preload * {
@@ -21,6 +26,7 @@ html, body {
 	text-align: center;
 	box-sizing: border-box;
 	font-weight: normal;
+	font-family: 'Lora', serif;
 }
 
 .head {
@@ -42,7 +48,7 @@ html, body {
 }
 
 .org-name {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Crimson Text', serif;
 }
 
 .logo.group {
@@ -51,6 +57,7 @@ html, body {
 	margin: 40px auto -10px auto;
 	width: 200px;
 	height: 200px;
+	background-image: url('/assets/ansible.png');
 }
 
 .greeting {
@@ -69,6 +76,34 @@ html, body {
 
 .defaultChannel {
 	font-weight: bold;
+}
+
+button {
+	background-color: rgb(115, 209, 200); /* base */
+}
+
+button:hover {
+	background-color: rgb(79, 180, 170); /* darker */
+}
+
+button:active {
+	border-bottom: 2px solid rgb(41, 138, 128); /* darker-still */
+}
+
+.active {
+	background-color: rgb(115, 209, 200); /* base */
+}
+
+button.error {
+	background-color: rgb(115, 182, 176); /* red-faded */
+}
+
+button.success:disabled {
+	background-color: rgb(115, 209, 200); /* base */
+}
+
+button:not(.disabled):active {
+	background-color: rgb(79, 180, 170); /* darker */
 }
 
 form {
