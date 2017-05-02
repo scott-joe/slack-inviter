@@ -68,8 +68,17 @@ html, body {
 }
 
 .group-name {
+	font-family: 'Crimson Text', serif;
 	font-weight: normal;
 	font-size: 1.8em;
+}
+
+.group-name.small {
+	display: block;
+	margin-bottom: -15px;
+	font-size: 1.2em;
+	font-weight: 400;
+	font-style: italic;
 }
 
 .channelWrapper {
