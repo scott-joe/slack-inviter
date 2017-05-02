@@ -64,7 +64,7 @@ html, body {
 .greeting {
 	text-align: center;
 	font-size: 1.6em;
-	margin-bottom: 90px;
+	margin-bottom: 70px;
 }
 
 .group-name {
@@ -105,6 +105,8 @@ form {
 		line-height: 32px;
 		vertical-align: middle;
 		transition: all 0.2s ease;
+		font-family: 'Lora', serif;
+    text-transform: capitalize;
 	}
 
 	input {
@@ -114,6 +116,8 @@ form {
 		border: 1px solid rgba(255, 255, 255, 0.50);
 		outline: none;
 		font-weight: normal;
+		font-family: 'Lora';
+    text-transform: lowercase;
 	}
 
 	input:focus {
